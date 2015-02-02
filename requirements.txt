@@ -7,6 +7,7 @@ args==0.1.0
 beautifulsoup4==4.3.2
 clint==0.4.1
 fuzzywuzzy==0.4.0
+gunicorn==19.2.0
 itsdangerous==0.24
 python-Levenshtein==0.11.2
 requests==2.4.3

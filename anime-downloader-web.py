@@ -90,7 +90,7 @@ def download_anime():
 
         return redirect(finalUrl, code=302)
     except Exception, e:
-        return str(e)
+        return str(e) + '<br /> Source: <a href="https://github.com/anubiann00b/AnimeDownloaderWeb">https://github.com/anubiann00b/AnimeDownloaderWeb</a>'
 
 if __name__ == "__main__":
     app.run()

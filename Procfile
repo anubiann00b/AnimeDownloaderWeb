@@ -1,1 +1,1 @@
-web: gunicorn hello:app --log-file=-
+web: gunicorn anime-downloader-web:app --log-file=-
